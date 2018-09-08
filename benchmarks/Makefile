@@ -19,14 +19,22 @@ instbasedir = $(UCB_VLSI_HOME)/install
 
 bmarks = \
 	median \
+	median-large \
 	qsort \
+	qsort-large \
 	rsort \
 	towers \
+	towers-large \
 	vvadd \
+	vvadd-large \
 	multiply \
-	dhrystone \
-	spmv \
+	multiply-large \
 	mm \
+	mm-large \
+	dhrystone \
+	dhrystone-large \
+	spmv \
+	spmv-large \
 	mt-vvadd \
 	mt-matmul \
 	pb-sgemm \
