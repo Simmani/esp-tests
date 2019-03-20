@@ -24,15 +24,12 @@ bmarks = \
 	qsort-large \
 	rsort \
 	towers \
-	towers-large \
 	vvadd \
 	vvadd-large \
 	multiply \
-	multiply-large \
 	mm \
 	mm-large \
 	dhrystone \
-	dhrystone-large \
 	spmv \
 	spmv-large \
 	mt-vvadd \
