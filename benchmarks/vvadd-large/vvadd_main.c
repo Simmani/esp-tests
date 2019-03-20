@@ -14,12 +14,12 @@
 //--------------------------------------------------------------------------
 // Input/Reference Data
 
-#include "dataset1-large.h"
+#include "dataset1.h"
 
 //--------------------------------------------------------------------------
 // vvadd function
 
-void vvadd( int n, int a[], int b[], int c[] )
+void vvadd( int n, float a[], float b[], float c[] )
 {
   int i;
   for ( i = 0; i < n; i++ )
@@ -31,18 +31,18 @@ void vvadd( int n, int a[], int b[], int c[] )
 
 int main( int argc, char* argv[] )
 {
-  int results_data[DATA_SIZE];
+  float results_data[DATA_SIZE];
 
 #if PREALLOCATE
   // If needed we preallocate everything in the caches
-  vvadd( DATA_SIZE, input1_data, input2_data, results_data );
+  vvadd( DATA_SIZE, input_data_X, input_data_Y, results_data );
 #endif
 
   // Do the vvadd
   setStats(1);
-  vvadd( DATA_SIZE, input1_data, input2_data, results_data );
+  vvadd( DATA_SIZE, input_data_X, input_data_Y, results_data );
   setStats(0);
 
   // Check the results
-  return verify( DATA_SIZE, results_data, verify_data );
+  return verifyFloat( DATA_SIZE, results_data, verify_data );
 }

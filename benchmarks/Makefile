@@ -45,6 +45,7 @@ bmarks = \
 	vec-sdaxpy \
 	vec-hsaxpy \
 	vec-vvadd \
+	vec-vvadd-large \
 	vec-sgemm-naive \
 	vec-sgemm-opt  \
 	vec-hgemm-opt  \
