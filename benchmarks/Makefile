@@ -37,10 +37,14 @@ bmarks = \
 	pb-sgemm \
 	pb-spmv \
 	vec-saxpy \
+	vec-saxpy-large \
 	vec-stream \
 	vec-daxpy \
+	vec-daxpy-large \
 	vec-sdaxpy \
+	vec-sdaxpy-large \
 	vec-hsaxpy \
+	vec-hsaxpy-large \
 	vec-vvadd \
 	vec-vvadd-large \
 	vec-sgemm-naive \

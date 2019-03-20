@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 
-data_size = 10000
+data_size = 1000
 
 a = int(random.random()*1000.00)
 X = [int(random.random()*10) for x in range(data_size)]

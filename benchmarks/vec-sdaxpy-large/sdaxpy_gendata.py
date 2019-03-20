@@ -1,6 +1,6 @@
 import random
 
-data_size = 1000
+data_size = 10000
 
 a = int(random.random()*1000.00)
 X = [int(random.random()*1000.00) for x in range(data_size)]
@@ -26,7 +26,7 @@ print "#define DATA_SIZE {}".format(data_size)
 
 print_scalar("double", "input_data_a", a)
 
-print_arr("double", "input_data_X", "DATA_SIZE", X)
+print_arr("float", "input_data_X", "DATA_SIZE", X)
 
 print_arr("double", "input_data_Y", "DATA_SIZE", Y)
 
