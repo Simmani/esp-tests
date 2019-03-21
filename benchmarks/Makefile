@@ -28,7 +28,6 @@ bmarks = \
 	vvadd-large \
 	multiply \
 	mm \
-	mm-large \
 	sgemm \
 	sgemm-large \
 	dgemm \
