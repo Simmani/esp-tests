@@ -60,7 +60,9 @@ bmarks = \
 	vec-dgemm-opt-large  \
 	vec-dgemm-opt-multi  \
 	vec-sdgemm-opt  \
+	vec-sdgemm-opt-large  \
 	vec-hsgemm-opt \
+	vec-hsgemm-opt-large \
 	vec-saxpy-streamx \
 	pmp \
 
