@@ -55,6 +55,7 @@ bmarks = \
 	vec-sgemm-opt  \
 	vec-sgemm-opt-large  \
 	vec-hgemm-opt  \
+	vec-hgemm-opt-large  \
 	vec-dgemm-opt  \
 	vec-dgemm-opt-large  \
 	vec-dgemm-opt-multi  \
