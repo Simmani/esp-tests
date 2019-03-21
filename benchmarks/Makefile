@@ -29,6 +29,8 @@ bmarks = \
 	multiply \
 	mm \
 	mm-large \
+	sgemm \
+	sgemm-large \
 	dgemm \
 	dgemm-large \
 	dhrystone \
@@ -51,6 +53,7 @@ bmarks = \
 	vec-vvadd-large \
 	vec-sgemm-naive \
 	vec-sgemm-opt  \
+	vec-sgemm-opt-large  \
 	vec-hgemm-opt  \
 	vec-dgemm-opt  \
 	vec-dgemm-opt-large  \
