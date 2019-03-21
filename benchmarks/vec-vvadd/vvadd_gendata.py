@@ -1,6 +1,6 @@
 import random
 
-data_size = 1000
+data_size = 5000
 
 X = [int(random.random()*1000.00) for x in range(data_size)]
 Y = [int(random.random()*1000.00) for x in range(data_size)]
