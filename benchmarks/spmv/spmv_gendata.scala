@@ -1,5 +1,4 @@
 #!/usr/bin/env scala
-!#
 
 val m = args(0).toInt
 val n = args(1).toInt
