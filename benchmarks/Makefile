@@ -64,6 +64,7 @@ bmarks = \
 	vec-hsgemm-opt-large \
 	vec-saxpy-streamx \
 	pmp \
+	blkdev \
 
 #--------------------------------------------------------------------
 # Build rules
